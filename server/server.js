@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(morgan("dev"));
 
-app.use(express.static("client/build"));
+app.use(express.static("../client/build"));
 
 // DB Config
 mongoose
