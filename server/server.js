@@ -20,6 +20,7 @@ app.use(morgan("dev"));
 
 app.use(express.static("client/build"));
 
+// Test
 // DB Config
 mongoose
   .connect(process.env.MONGODB_URI, {
